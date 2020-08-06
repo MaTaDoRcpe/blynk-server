@@ -1,6 +1,6 @@
 sudo nano /etc/security/limits.conf
-root soft     nofile         100000
-root hard     nofile         100000
+root soft     nofile         1000000
+root hard     nofile         1000000
 
 sudo nano /etc/pam.d/common-session
 session required        pam_limits.so
